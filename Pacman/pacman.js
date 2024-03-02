@@ -286,10 +286,10 @@ Pacman.User = function (game, map) {
         score     = 5,
         keyMap    = {};
     
-    keyMap[KEY.A]  = LEFT;
-    keyMap[KEY.W]    = UP;
-    keyMap[KEY.D] = RIGHT;
-    keyMap[KEY.S]  = DOWN;
+    keyMap[KEY.LEFT]  = A;
+    keyMap[KEY.UP]    = W;
+    keyMap[KEY.RIGHT] = D;
+    keyMap[KEY.DOWN]  = S;
 
     function addScore(nScore) { 
         score += nScore;
